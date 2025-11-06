@@ -39,7 +39,7 @@ h3 {
 p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
@@ -52,6 +52,7 @@ img {
 .container {
   padding: 0 15px;
   width: 100%;
+  height: auto;
   max-width: 1158px;
   margin: 0 auto;
 }
@@ -230,8 +231,22 @@ img {
 
 .section-two-element {
   width: calc((100% - 72px) / 4);
-  height: 104px;
   margin: 0;
+}
+
+.box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+
+.section-two-icon {
 }
 
 .section-two-element-title {
@@ -267,7 +282,7 @@ img {
   padding-block: 0px 32px;
   padding-inline: 0px;
   width: calc((100% - 72px) / 4);
-  height: 380px;
+  height: 428px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
@@ -286,6 +301,23 @@ img {
 .section-three-card-text {
   font-size: 16px;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.social-icons-box {
+}
+
+.social-icons-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-icons-li {
+}
+
+.social-icon {
 }
 /* #endregion section 3 */
 
@@ -338,6 +370,14 @@ img {
   width: 100%;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.box-logo {
+  margin-right: 120px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -350,5 +390,15 @@ img {
 .footer-text {
   color: #f4f4fd;
   padding-top: 16px;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-icons {
+  gap: 16px;
 }
 /* #endregion footer */
