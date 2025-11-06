@@ -368,6 +368,40 @@ img {
 .section-four-card {
   width: calc((100% - 48px) / 3);
   background: #fff;
+  box-shadow: none;
+  transition: box-shadow 250ms ease-in-out;
+}
+
+.section-four-card:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.card-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4d5ae5;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.card-thumb:hover .overlay {
+  transform: translatey(0);
+}
+
+.overlay-text {
+  color: #f4f4fd;
 }
 
 .text-group {
