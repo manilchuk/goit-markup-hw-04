@@ -400,7 +400,7 @@ img {
   overflow: hidden;
 }
 
-.overlay {
+.overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -413,7 +413,7 @@ img {
   color: #f4f4fd;
 }
 
-.section-four-card:hover .overlay {
+.section-four-card:hover .overlay-text {
   transform: translateY(0);
 }
 
@@ -475,7 +475,7 @@ img {
   gap: 16px;
 }
 
-.social-footer-link {
+.footer-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -490,8 +490,8 @@ img {
   fill: #f4f4fd;
 }
 
-.social-footer-link:hover,
-.social-footer-link:focus {
+.footer-link:hover,
+.footer-link:focus {
   background-color: #31d0aa;
 }
 /* #endregion footer */
